@@ -1,0 +1,9 @@
+@namespace BoltBlazor
+
+<div class="relative">
+    @ChildContent
+    
+    <MudOverlay Visible="Loading" Absolute DarkBackground>
+        <MudProgressCircular Indeterminate />
+    </MudOverlay>
+</div>
